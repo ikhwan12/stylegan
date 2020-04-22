@@ -58,3 +58,10 @@ $ python predict.py
 * w1 - Weight for image 1 (default=0.6)
 * w2 - Weight for image 2 (default=0.4)
 * out - Output path with extension (default='result.png')
+* age - Age Coefficient where greater is getting younger (default=0)
+    * -2.0 : Elder
+    * -1.0 : Adult
+    * 0.0 : Teen
+    * 1.0 : Kid
+    * 2.0 : Toddler
+* gender - Gender Coefficient where 0.5 is male and -0.5 is female (default=0)
