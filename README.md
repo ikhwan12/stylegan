@@ -65,3 +65,21 @@ $ python predict.py
     * 1.0 : Kid
     * 2.0 : Toddler
 * gender - Gender Coefficient where 0.5 is male and -0.5 is female (default=0)
+
+### Face Morpher
+```sh
+$ python morpher.py --images=<images_dir_path> --background=average --out_video=<output_path>
+``` 
+##### Parameters :
+* src - Filepath to source image (.jpg, .jpeg, .png)
+* dest - Filepath to destination image (.jpg, .jpeg, .png)
+* images - Folderpath to images
+* width - Custom width of the images/video [default: 500]
+* height - Custom height of the images/video [default: 600]
+* num - Number of morph frames [default: 20]
+* fps - Number frames per second for the video [default: 10]
+* out_frames - Folder path to save all image frames
+* out_video - Filename to save a video
+* plot - Flag to plot images to result.png [default: False]
+* background - background of images to be one of (black|transparent|average) [default: black]
+* version - Show version
